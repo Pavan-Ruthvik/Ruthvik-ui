@@ -1,0 +1,90 @@
+.container {
+    background-image: url("./images/violen.jpg");
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: burlywood;
+    width: 100%;
+    color: rgb(192, 184, 184);
+}
+.content {
+    width: 400px;
+    border-radius: 20px;
+    height: 500px;
+    /* background-color: ; */
+    border: 10px solid rgb(112, 137, 206);
+    background-size: contain;
+    background-size: cover;
+    color: #000000;
+}
+
+
+.group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 70%;
+    padding: 8px;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.par {
+    display: inline-block;
+    width: 150px;
+}
+@media screen and (max-width:520px){
+    .container {
+        background-color: white;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .container {
+        background-color: rgba(10, 138, 223, 0.192);
+    }
+    
+}
+@media screen and (min-width:992px){
+    .container {
+        background-color: rgb(107, 94, 224);
+    }
+    
+}
+@media screen and (min-width:1200px){
+    .container {
+        background-color: rgb(60, 84, 92);
+    }
+    
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
